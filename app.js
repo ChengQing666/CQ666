@@ -24,6 +24,7 @@ app.use(session({                       // 配置session
         maxAge: gMaxHour                // session过期时间
     },
     //sadsasad
+    //sadsadsadsa
     name: 'sessionid'
 }));
 app.use(express.static(path.join(__dirname, 'static')));    // 设置静态文件路径
